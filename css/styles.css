@@ -1,0 +1,160 @@
+body{
+    align-items: center;
+    text-align: center;
+}
+h1,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: grey;
+}
+
+/* Navbar */
+
+#title{
+    background-color: black;
+    margin-top: -45%;
+    padding: 3% auto 5% auto;
+}
+.navbar-brand{
+    margin-left: 1%;
+}
+
+/* Title */
+
+.container-fluid{
+    padding: 3% 15%;
+    margin-top: 50%;
+    position: relative;
+    text-align: center;
+}
+.heading{
+    color: whitesmoke;
+    font-family: 'Permanent Marker', cursive;
+    /* margin: 10% 0 0 10%; */
+    line-height: 1.5;
+    font-size: 500%;
+}
+.sub-heading{
+    color: wheat;
+    /* margin: 0 10% 10% 10%; */
+}
+.head-button{
+    margin: 10% 15% 10% 10%;
+}
+.head-button>button{
+    margin: 1% 5% 1% 5%;
+    line-height: 2;
+}
+.display{
+    /* margin-left: 25%;   */
+   width: 50%;
+    position: absolute;
+   right: 30%;  
+}
+
+/* Features */
+
+#features,#testimonials{
+    background-color: #fff;
+    text-align: center;
+    margin: 5% 5%;
+    position: relative; 
+    padding: 1% 2% 3% 2%;
+}
+#features>h2{
+    margin: 5% 5%;
+    text-shadow: gray;
+    text-decoration: underline;
+}
+.founderimg{
+    border-radius: 100%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ffffcc;
+    width: auto;
+
+}
+.gallery{
+    width: 50%;
+    height: auto;
+    align-items: center;
+    padding-top: 1%;
+}
+.carousel1{
+    padding-bottom: 2%;
+}
+
+/* Press */
+
+#press{
+    text-align: center; 
+   /* background-color: bisque; */
+   padding: 3%;
+}
+
+/* Events */
+
+#events{
+    text-align: center;
+    padding: 5%;
+    background-color: blanchedalmond;
+}
+.event{
+    padding: 3% 2%;
+}
+
+.card-body{
+    background-color: aliceblue;
+}
+
+/* Call to action */
+
+
+#cta{
+    background-color: #fff;
+    padding: 5%;
+    text-align: center;
+    padding: 2%;
+}
+
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    background-color: black; 
+    color: cornsilk;
+    padding: 2%;
+}
+.footer-link{
+    margin: 1%;
+    color: grey;
+}
+.bottom-container>p{
+    margin-top: 3%;
+}
+
+/* media query breakpoint */
+
+@media(max-width:991px){
+    .display{
+        position: static;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    .heading{
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
